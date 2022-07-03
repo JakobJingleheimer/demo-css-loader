@@ -1,0 +1,12 @@
+{
+  "name": "css-loader",
+  "author": "Jacob Smith <3012099+JakobJingleheimer@users.noreply.github.com>",
+  "type": "module",
+  "scripts": {
+    "demo": "node --no-warnings --loader=./loader.mjs ./demo.mjs",
+    "demo:full": "node --no-warnings --loader=./loader.mjs ./demo.mjs --loadFullStyles"
+  },
+  "devDependencies": {
+    "css-parse": "^2.0.0"
+  }
+}

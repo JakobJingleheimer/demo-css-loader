@@ -1,0 +1,14 @@
+.Foo {
+	background-color: aliceblue;
+	color: #000;
+	padding: 1px 1px 0;
+}
+
+.Bar {
+	position: absolute;
+	transform: translate(-50%, 50%);
+}
+
+.Qux[type="number"] {
+	text-align: right;
+}
